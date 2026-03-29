@@ -22,9 +22,8 @@ Preparing for full-stack/web development internships by strengthening core JavaS
 
 ## 🚀 Progress
 
-- ✅ Fundamentals
-- ✅ Control Flow (Loops + Conditionals)
-- 🔄 Next: Functions & Arrays
+- ✅ Fundamentals - Variables
+- 🔄 Next: Datatypes and Concat + Coercion
 
 ## 🔗 Projects
 
