@@ -26,7 +26,7 @@
 // console.log(" " + " ");
 // let sum = " " + 0;
 // console.log(typeof sum);
-// console.log("vinod" - "thapa");
+// console.log("abbas" - "dev");
 // console.log(true + true);
 // console.log(true + false);
 // console.log(false + true);

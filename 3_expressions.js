@@ -22,7 +22,7 @@
 // examples
 // var myFavNum = 15;
 // Assigns the value 15 to the variable myFavNum
-// var channelName = 'thapa tecnical'
+// var channelName = 'dev tecnical'
 
 //* ===================================
 //* 2: Arithmetic operators
