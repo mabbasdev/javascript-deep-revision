@@ -196,6 +196,25 @@
 
 //! 1: Write a function to add a specified number of days to a given date.
 
+// const addDaystoDate = (date, extraDay) => {
+//     // console.log(date)
+//     // console.log(extraDay)
+
+//     let addDays = date.getDate() + extraDay 
+//     // console.log(addDays)
+//     let updatedDate = date.setDate(addDays);
+//     // console.log(updatedDate)
+//     let newUpdated = new Date(updatedDate)
+//     // console.log(newUpdated.toDateString())
+//     return newUpdated
+// }
+
+// const date = new Date();
+// const extraDay = 7;
+
+// console.log(addDaystoDate(date, extraDay))
+
+
 // const addDaysToDate = (date, extraDay) => {
 //   //   console.log(date);
 //   //   console.log(date.setDate(date.getDate() + extraDay));
@@ -222,3 +241,17 @@
 // const date1 = new Date("2024-02-19");
 // const date2 = new Date("2024-03-01");
 // console.log(getDaysDifference(date1, date2)); // Output: 11 (difference in days)
+const date1 = new Date("2024-02-19");
+const date2 = new Date("2024-03-01");
+
+const getDaysDifference = (d1, d2) => {
+    let diffMill = Math.abs(d2 - d1) 
+    let oneDay = 24 * 60 * 60 * 1000
+    return Math.round(diffMill / oneDay);
+    
+
+}
+
+console.log(getDaysDifference(date1, date2))
+
+
