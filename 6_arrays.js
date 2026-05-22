@@ -91,8 +91,8 @@
 //todo Practice Time
 //! write a program to Multiply each element with 2
 // const numbers = [1, 2, 3, 4, 5];
-// // forEach -  Performs an action on each element
-// // map -  Creates a new array with transformed elements
+//? forEach -  Performs an action on each element
+//? map -  Creates a new array with transformed elements
 
 // numbers.forEach((curElem) => {
 //   console.log(curElem * 2);
@@ -273,10 +273,10 @@
 //   { name: "Tablet", price: 300 },
 //   { name: "Smartwatch", price: 150 },
 // ];
-// // Filter products with a price less than or equal to 500
+//* Filter products with a price less than or equal to 500
 
 // const filterProducts = products.filter((curElem) => {
-//   //   console.log(curElem.price <= 500);
+//   console.log(curElem.price <= 500);
 //   return curElem.price <= 500;
 // });
 // console.log(filterProducts);
@@ -352,7 +352,7 @@
 
 //! 1: Using the map method, write a function that takes an array of strings and returns a new array where each string is capitalized.
 // Original array of strings
-const words = ["APPLE", "banana", "cherry", "date"];
+// const words = ["APPLE", "banana", "cherry", "date"];
 
 // const result = words.map((curElem) => {
 //   return curElem.toLowerCase();
